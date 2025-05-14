@@ -233,7 +233,9 @@ export default function Navbar() {
                       </Button>
                     </div>
                   </div>
-                  <Button className={`w-full ${theme == "dark1" ? "bg-yellow-400 text-black font-bold hover:bg-yellow-500" : theme == "dark2" ? "bg-yellow-300 text-black font-bold hover:bg-yellow-400" : "bg-blue-700 text-white font-bold hover:bg-blue-500"} mt-2`}>
+                  <Button className={`w-full ${theme == "dark1" ? "bg-yellow-400 text-black font-bold hover:bg-yellow-500" : theme == "dark2" ? "bg-yellow-300 text-black font-bold hover:bg-yellow-400" : "bg-blue-700 text-white font-bold hover:bg-blue-500"} mt-2`}
+                  onClick={() => setLanguage(language === "en" ? "hi" : "en")}
+                  >
                     {labels.book}
                   </Button>
                 </div>
