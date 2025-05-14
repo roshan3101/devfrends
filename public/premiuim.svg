@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="32" fill="#00968833" />
+  
+  <!-- Moisturizer Bottle 1 -->
+  <g transform="translate(15, 18)">
+    <rect x="0" y="6" width="10" height="16" rx="2" fill="#009688" />
+    <path d="M2 6V3C2 1.89543 2.89543 1 4 1H6C7.10457 1 8 1.89543 8 3V6" stroke="#009688" stroke-width="2" />
+    <circle cx="5" cy="14" r="3" fill="#FFFFFF" fill-opacity="0.6" />
+  </g>
+  
+  <!-- Moisturizer Bottle 2 -->
+  <g transform="translate(30, 22)">
+    <rect x="0" y="4" width="8" height="14" rx="2" fill="#00796B" />
+    <path d="M2 4V2C2 0.895431 2.89543 0 4 0C5.10457 0 6 0.895431 6 2V4" stroke="#00796B" stroke-width="2" />
+    <rect x="2" y="7" width="4" height="1" rx="0.5" fill="#FFFFFF" fill-opacity="0.6" />
+    <rect x="2" y="9" width="4" height="1" rx="0.5" fill="#FFFFFF" fill-opacity="0.6" />
+    <rect x="2" y="11" width="4" height="1" rx="0.5" fill="#FFFFFF" fill-opacity="0.6" />
+  </g>
+  
+  <!-- Face Icon -->
+  <g transform="translate(40, 15)">
+    <circle cx="5" cy="5" r="5" stroke="#009688" stroke-width="1.5" stroke-dasharray="1 1" />
+    <path d="M3 4C3 4 3.5 5 5 5C6.5 5 7 4 7 4" stroke="#009688" stroke-width="1" stroke-linecap="round" />
+    <circle cx="3" cy="3" r="0.5" fill="#009688" />
+    <circle cx="7" cy="3" r="0.5" fill="#009688" />
+  </g>
+  
+  <!-- Droplets -->
+  <circle cx="22" cy="14" r="2" fill="#C8E6E6" fill-opacity="0.8" />
+  <circle cx="27" cy="12" r="1.5" fill="#C8E6E6" fill-opacity="0.8" />
+  <circle cx="38" cy="10" r="1" fill="#C8E6E6" fill-opacity="0.8" />
+  
+  <!-- Facial Treatment Mask -->
+  <path d="M32 36C32 36 28 42 22 42C16 42 12 38 12 38" stroke="#009688" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M32 36C32 36 36 42 42 42C48 42 52 38 52 38" stroke="#009688" stroke-width="1.5" stroke-linecap="round" />
+</svg> 
